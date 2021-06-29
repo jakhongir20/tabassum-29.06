@@ -1,0 +1,88 @@
+@import "mixins.scss";
+
+// Podklyuchenie shrifti
+
+// -- Podklyuchenie shrifti
+
+// Shrift po umaolchnie
+$fontfamilyMons: "Montserrat", sans-serif;
+// -- Shrift po umaolchnie
+// Peremennie
+$minwidth: 20; // 320px
+$mw: 117.5; // 1880px
+$md1: 75; // 1200
+$md2: 62; // 992
+$md3: 48; // 768
+$md4: 30; // 480
+// -- Peremennie
+
+$color1: #ffffff;
+$color-bg: #d16161;
+
+// Obolochka
+.wrapper {
+  // width: 100%;
+  overflow: hidden;
+  position: relative;
+  // @include flexbox();
+  // flex-direction: column;
+
+  min-height: 100%;
+  // &.loaded{}
+}
+//-- Obolochka
+
+// Osnovaya setka
+._container {
+  border: 1px solid green;
+  height: 500px;
+  max-width: $mw + em;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1.5rem;
+  @media (max-width: $md1+em) {
+    max-width: 97rem;
+  }
+  @media (max-width: $md2+em) {
+    max-width: 80rem;
+  }
+  @media (max-width: $md3+em) {
+    max-width: none;
+    padding: 0 1rem;
+  }
+  @media (max-width: $md4+em) {
+  }
+}
+//-- Osnovaya setka
+
+// Podklyucheni UI stiley
+@import "ui.scss";
+@import "forms.scss";
+//-- Podklyucheni UI stiley
+
+// Podklyuchenie faylov
+@import "header.scss";
+@import "footer.scss";
+@import "input.scss";
+//-- Podklyuchenie faylov
+
+// ==================================================================================================================
+.page {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+// =======================================================================================================
+
+@import "mainpage.scss";
+@import "about.scss";
+@import "services.scss";
+@import "doctors.scss";
+@import "reviews.scss";
+@import "contact.scss";
+@import "popup.scss";
+
+// Catalog styles
+@import "catalog.scss";
+
+// Works styles
+@import "works.scss";

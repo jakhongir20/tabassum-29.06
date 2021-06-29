@@ -1,0 +1,74 @@
+{
+  "catalog_services": [
+    {
+      "id": 1,
+      "procedure_name": "Пломбирование",
+      "parent_name": "терапия",
+      "price": 20000,
+      "parent_weight":0
+    },
+    {
+      "id": 2,
+      "procedure_name": "аКонсультация и осмотр врача",
+      "parent_name": "хирургия",
+      "price": 30000,
+      "parent_weight":1
+    },
+    {
+      "id": 3,
+      "procedure_name": "вКонсультация и осмотр врача",
+      "parent_name": "имплантология",
+      "price": 25000,
+      "parent_weight":2
+    },
+    {
+      "id": 4,
+      "procedure_name": "аКонсультация и осмотр врача",
+      "parent_name": "имплантология",
+      "price": 25000,
+      "parent_weight":2
+    },
+    {
+      "id": 5,
+      "procedure_name": "аКонсультация и осмотр врача",
+      "parent_name": "хирургия",
+      "price": 25000,
+      "parent_weight":1
+    },
+    {
+      "id": 6,
+      "procedure_name": "вКонсультация и осмотр врача",
+      "parent_name": "эстетическая Стамотология",
+      "price": 25000,
+      "parent_weight":2
+    },
+    {
+      "id": 7,
+      "procedure_name": "вКонсультация и осмотр врача",
+      "parent_name": "пародонтология",
+      "price": 25000,
+      "parent_weight":2
+    },
+    {
+      "id": 8,
+      "procedure_name": "вКонсультация и осмотр врача",
+      "parent_name": "имплантология",
+      "price": 25000,
+      "parent_weight":2
+    },
+    {
+      "id": 9,
+      "procedure_name": "аКонсультация и осмотр врача",
+      "parent_name": "хирургия",
+      "price": 25000,
+      "parent_weight":1
+    },
+    {
+      "id": 10,
+      "procedure_name": "сКонсультация и осмотр врача",
+      "parent_name": "терапия",
+      "price": 25000,
+      "parent_weight":0
+    }
+  ]
+}

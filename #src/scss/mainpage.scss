@@ -1,0 +1,65 @@
+.mainpage {
+  position: relative;
+  height: 51.5rem;
+  background: url("../img/mainpage/bg-main.png") center no-repeat;
+  background-size: cover;
+  @include flexbox();
+  justify-content: center;
+  align-items: center;
+  @media (max-width: $md4+em) {
+    height: 30rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  // .mainpage__content
+  &__content {
+    text-align: center;
+  }
+  // .mainpage__title
+  &__title {
+    width: 43.75rem;
+    margin: 0 auto 2rem;
+    img{
+      width: 100%;
+    }
+    @media (max-width: $md4+em) {
+      width: 30rem;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 22.5rem) {
+      font-size: 5.2rem;
+    }
+  }
+  // .mainpage__text
+  &__text {
+    font-weight: 500;
+    font-size: 1.6875rem;
+    line-height: 2.125rem;
+    text-transform: uppercase;
+    max-width: 39.68rem;
+    margin: 0 auto;
+    @media (max-width: $md4+em) {
+      font-size: 1.2rem;
+    }
+    @media (max-width: 22.5rem) {
+      font-size: 1rem;
+      max-width: 230px;
+    }
+  }
+  // .mainpage__scroll
+  &__scroll {
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    @include tr(-50%, 0, 0);
+    width: 2.75rem;
+    height: 4.625rem;
+    @media (max-width: $md4+em) {
+      display: none;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

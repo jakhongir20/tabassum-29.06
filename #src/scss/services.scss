@@ -1,0 +1,157 @@
+.services {
+  // background: $color-bg;
+  position: relative;
+  overflow: hidden;
+  height: 86rem;
+  // height: 1376px;
+  padding-top: 28rem;
+  @media (max-width: $md4+em) {
+    padding-top: 11rem;
+  }
+  &-svg2 {
+    height: 97%;
+    width: 101%;
+    top: -5rem;
+    @media (min-width: $md4+em) {
+      display: none;
+    }
+    @media (max-width: 23.43em) {
+      top: -6rem;
+    }
+    @media (max-width: 22.5em) {
+      top: -8rem;
+    }
+    @media (max-width: 21.5rem) {
+      // top: -11rem;
+    }
+  }
+  &-svg1 {
+    top: 3rem;
+    left: 0;
+    @media (max-width: $md4+em) {
+      display: none;
+    }
+    @media (max-width: 83.75em) {
+      height: 100%;
+    }
+  }
+  svg {
+    position: absolute;
+
+    @media (min-width: $md1+em) {
+      width: 100%;
+    }
+  }
+}
+.services {
+  &__container {
+    max-width: 117.5rem;
+    margin: 0 auto;
+  }
+  // .services__title
+  &__title {
+    margin-bottom: 7rem;
+    position: relative;
+    z-index: 5;
+    @media (max-width: $md4+em) {
+      font-size: 36px;
+      line-height: 44px;
+    }
+  }
+  // .services__slider
+  &__slider {
+    overflow: hidden;
+  }
+  // .services__wrapper
+  &__wrapper {
+  }
+  // .services__slide
+  &__slide {
+  }
+}
+.title--white {
+}
+.swiper-container {
+}
+.swiper-swapper {
+}
+.slide-box {
+  min-width: 25.31rem;
+  height: 39.75rem;
+  max-height: 39.75rem;
+  @include flexbox();
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 1.25rem;
+  position: relative;
+  &__topimage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-top-left-radius: 1.27rem;
+    border-top-right-radius: 1.27rem;
+  }
+  // .slide-box__image
+  &__image {
+    max-height: 12.43rem;
+    margin-top: 1rem;
+    z-index: 3;
+    flex: 1 1 auto;
+    &.first {
+    }
+    &.second {
+    }
+    &.third {
+    }
+    &.three {
+    }
+    &.four {
+    }
+    img {
+      // width: 100%;
+      height: 100%;
+    }
+  }
+  // .slide-box__label
+  &__label {
+    cursor: context-menu;
+    height: 4.4rem;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: $color-bg;
+    text-align: center;
+    flex: 1 1 auto;
+  }
+  // .slide-box__text
+  &__text {
+    cursor: context-menu;
+    font-family: $fontfamilyMons;
+    font-size: 1rem;
+    line-height: 1.45rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 0 auto 1rem;
+    max-width: 21.81rem;
+    flex: 1 1 auto;
+    height: 100%;
+  }
+  // .slide-box__link
+  &__link {
+    font-family: $fontfamilyMons;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #d16161;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+    flex: 1 1 auto;
+  }
+}
+.swiper-slide {
+}

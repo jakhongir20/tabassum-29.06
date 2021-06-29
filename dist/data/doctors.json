@@ -1,0 +1,514 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "01",
+      "imgSrcHover": "01_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 0,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Илхом Мирзиёев",
+      "print-name": "",
+      "prof": "Стоматолог",
+      "time-start": "от 9:00",
+      "time-end": "до 18:00",
+      "is-work-week": true,
+      "imgSrc": "02",
+      "imgSrcHover": "02_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 1,
+      "working-days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "03",
+      "imgSrcHover": "03_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 2,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "04",
+      "imgSrcHover": "04_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 3,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "05",
+      "imgSrcHover": "05_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 4,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "06",
+      "imgSrcHover": "06_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 5,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "07",
+      "imgSrcHover": "07_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 6,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "08",
+      "imgSrcHover": "08_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 7,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "09",
+      "imgSrcHover": "09_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 8,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Илхом Мирзиёев",
+      "print_name": "",
+      "prof": "Стоматолог",
+      "time_start": "от 9:00",
+      "time_end": "до 18:00",
+      "is_work_week": true,
+      "imgSrc": "10",
+      "imgSrcHover": "10_h",
+      "description": "Lorem ipsum dolor",
+      "parent_weight": 9,
+      "working_days": [
+        {
+          "day": "Понедельник",
+          "day_short": "Пн",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Вторник",
+          "day_short": "Вт",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Среда",
+          "day_short": "Ср",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Четверг",
+          "day_short": "Чет",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Пятница",
+          "day_short": "Пят",
+          "time_start": "09",
+          "time_end": "18"
+        },
+        {
+          "day": "Суббота",
+          "day_short": "Суб",
+          "time_start": "09",
+          "time_end": "18"
+        }
+      ]
+    }
+  ]
+}

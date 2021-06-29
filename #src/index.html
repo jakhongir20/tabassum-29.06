@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/jpeg" href="img/favicon.png">
+  <title>Tabassum</title>
+  <link rel="stylesheet" href="css/libs/all.min.css">
+  <link rel="stylesheet" href="css/libs/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/libs/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+
+<body>
+  <div class="wrapper">
+    @@include('_header.html')
+    <main class="page">
+      <section class="mainpage">
+        <div class="mainpage__content">
+          <h1 class="mainpage__title"><img src="img/mainpage/TABASSUM.png" alt=""></h1>
+          <p class="mainpage__text" data-i18n="header.text">Здоровые зубы и красивая улыбка меняют всё!
+            Наша клиника ждет Вас!</p>
+        </div>
+        <a href="#about" class="mainpage__scroll">
+          <img src="img/mainpage/scroll.png" alt="scroll">
+        </a>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__container">
+          <h2 class="about__title title--red" data-i18n="about.title">О НАС</h2>
+          <div class="about__row">
+            <div class="about__column">
+              <div class="about__item item-about">
+                <p class="item-about__text" data-i18n="about.text"></p>
+
+              </div>
+            </div>
+            <div class="about__column last">
+              <div class="about__galery galery-about">
+                <div class="galery-about__img1"><img src="img/about/01.png" alt=""></div>
+                <div class="galery-about__img2"><img src="img/about/02.jpg" alt=""></div>
+                <div class="galery-about__img3"><img src="img/about/03.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <svg class="services-svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1880 1376">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #d16161;
+              }
+            </style>
+          </defs>
+          <g id="Слой_2" data-name="Слой 2">
+            <g id="Слой_1-2" data-name="Слой 1">
+              <path class="cls-1"
+                d="M930.72,426.85C357.5,35.5,123.53,17.66,0,0V1376H1880V426.85C1678.58,498.32,1256.5,659,930.72,426.85Z" />
+            </g>
+          </g>
+        </svg>
+        <svg class="services-svg2" width="300" height="477" viewBox="0 0 300 477" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M148.766 68.5317C57.4433 6.38013 20.1681 3.54691 0.488281 0.742188V476.752H300V68.5317C267.911 79.8829 200.667 105.401 148.766 68.5317Z"
+            fill="#D16161" />
+        </svg>
+
+        <div class="services__container">
+          <h2 class="services__title title--white" data-i18n="services.title">УСЛУГИ</h2>
+          <div class="services__slider swiper-container">
+            <div class="services__wrapper swiper-wrapper" id="services-content">
+              <!--   todo -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="doctors" id="doctors">
+        <div class="doctors__container">
+          <h2 class="doctors__title title--red" data-i18n="doctors.title">врачи</h2>
+          <div class="doctors__row doctors__row--1" id="doctor-contents">
+             <!-- todo -->
+          </div>
+          <a href="doctors.html" class="doctors__link" data-i18n="doctors.link"></a>
+        </div>
+      </section>
+
+      <section class="review" id="review">
+        <svg class="review-svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1880 1376">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #d16161;
+              }
+            </style>
+          </defs>
+          <g id="Слой_2" data-name="Слой 2">
+            <g id="Слой_1-2" data-name="Слой 1">
+              <path class="cls-1"
+                d="M930.72,426.85C357.5,35.5,123.53,17.66,0,0V1376H1880V426.85C1678.58,498.32,1256.5,659,930.72,426.85Z" />
+            </g>
+          </g>
+        </svg>
+        <svg class="review-svg2" width="301" height="279" viewBox="0 0 301 279" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M151.499 68.3576C242.981 5.90141 280.322 3.0543 300.036 0.23584V278.5H0V68.3576C32.1458 79.7644 99.5067 105.408 151.499 68.3576Z"
+            fill="#D16161" />
+        </svg>
+        <div class="review__container">
+          <h2 class="review__title title--white" data-i18n="reviews.title">ОТЗЫВЫ</h2>
+          <div class="review__slider swiper-container">
+            <div class="review__wrapper swiper-wrapper">
+              <div class="review__slide slide-review swiper-slide">
+                <div class="slide-review__content">
+                  <div class="slide-review__image"><img src="img/reviews/01.png" alt=""></div>
+                  <a href="https://www.youtube.com/embed/7kbAcyxUyoU" data-fancybox class="slide-review__play"><img
+                      src="img/reviews/play.png" alt="play"></a>
+                </div>
+              </div>
+              <div class="review__slide slide-review swiper-slide">
+                <div class="slide-review__content">
+                  <div class="slide-review__image"><img src="img/reviews/02.png" alt=""></div>
+                  <a href="https://www.youtube.com/embed/q25kLiXh4Io" data-fancybox class="slide-review__play"><img
+                      src="img/reviews/play.png" alt="play"></a>
+                </div>
+              </div>
+              <div class="review__slide slide-review swiper-slide">
+                <div class="slide-review__content">
+                  <div class="slide-review__image"><img src="img/reviews/03.png" alt=""></div>
+                  <a href="https://www.youtube.com/embed/LcCfS0VSrMM" data-fancybox class="slide-review__play"><img
+                      src="img/reviews/play.png" alt="play"></a>
+                </div>
+              </div>
+              <div class="review__slide slide-review swiper-slide">
+                <div class="slide-review__content">
+                  <div class="slide-review__image"><img src="img/reviews/04.png" alt=""></div>
+                  <a href="https://www.youtube.com/embed/YqytI5vHBA0" data-fancybox class="slide-review__play"><img
+                      src="img/reviews/play.png" alt="play"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="works.html" class="review__link" data-i18n="reviews.link">СМОТРЕТЬ ВСЕХ</a>
+      </section>
+
+      <div class="contact-map-res"></div>
+
+      <section class="contact" id="contact">
+        <div class="contact__content">
+          <div class="contact__left contact__column">
+            <h3 class="contact__title" data-i18n="contact.title">свяжитесь с нами</h3>
+            <form class="form">
+              <div class="form__group">
+                <label for="name" data-i18n="contact.label1">Ф.И.О.</label>
+                <input type="text" name="name" autocomplete="off" id="name" data-i18n-placeholder="demo.form.name" placeholder="">
+              </div>
+              <div class="form__group">
+                <label for="phone" data-i18n="contact.label2">ТЕЛЕФОН</label>
+                <input type="text" id="phone" autocomplete="off" data-i18n-placeholder="demo.form.phone" name="phone" placeholder="">
+              </div>
+              <div class="form__group">
+                <div class="g-recaptcha" id="recaptcha-contact" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI">
+                </div>
+              </div>
+              <button class="form__btn" type="submit" data-i18n="contact.btn">ОТПРАВИТЬ</button>
+            </form>
+          </div>
+          <div class="contact__right contact__column" data-da="contact-map-res,1,768">
+            <div class="map-container">
+              <div class="placeDiv">
+                <div class="placecard__container">
+                  <div class="placecard__left">
+                    <p class="placecard__business-name">CFS TABASSUM</p>
+                    <p class="placecard__info" data-i18n="contact.street">CFS TABASSUM, Nasaf Ko'chasi, Тошкент,
+                      Uzbekistan</p>
+                  </div>
+                </div>
+                <div class="placecard__right">
+                  <a class="placecard__direction-link" target="_blank"
+                    href="https://www.google.com/maps/place/CFS+TABASSUM/@41.3112205,69.3137442,19z/data=!3m1!4b1!4m5!3m4!1s0x38aef5b634afe459:0x60d5a66382651c65!8m2!3d41.3112195!4d69.3142914"
+                    id="A_9">
+                    <div class="placecard__direction-icons" data-i18n="contact.marshrut">Построить маршрут</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="contact__map" id="map">
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="popup-overlay" id="popup">
+        <!-- todo -->
+      </div>
+
+    </main>
+    @@include('_footer.html')
+
+  </div>
+</body>
+<!--<script src="js/libs/jquery-3.4.1.min.js"></script>-->
+<script src="js/vendors.min.js"></script>
+<script src="js/libs/cookie.js"></script>
+<script src="js/libs/swiper-bundle.min.js"></script>
+<script src="js/libs/jquery.fancybox.min.js"></script>
+<script async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDguAJ3Fy5_7telKiZkSXhJUlgDCkj46Q8&callback=initMap"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+
+<script src="./js/libs/all.min.js"></script>
+<script src="js/libs/jquery.validate.min.js"></script>
+<script src="js/libs/sweetalert.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/map.js"></script>
+<script src="js/render.js"></script>
+<script src="js/render-footer.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/script.min.js"></script>
+<script>
+
+</script>
+
+</html>

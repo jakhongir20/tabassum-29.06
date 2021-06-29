@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "nav-link1": "Biz haqimizda",
+    "nav-link2": "Xizmatlar",
+    "nav-link3": "Doktorlar",
+    "nav-link4": "SHARHLAR",
+    "nav-link5": "Bog'lanish"
+  },
+  "header": {
+    "title": "TABASSUM",
+    "text": "Sog'lom tishlar va chiroyli tabassum hamma narsani o'zgartiradi!\nBizning klinikamiz sizni kutmoqda!"
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "text": "uz Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus vulputate\n                  fames\n                  eget integer lorem risus vitae. Laoreet diam egestas donec massa urna enim maecenas senectus. Lacus\n                  scelerisque ac sit tellus egestas. Condimentum adipiscing et, et molestie nunc vulputate lacinia purus\n                  leo",
+    "link": "uz about link"
+  },
+  "services": {
+    "title": "Xizmatlar",
+    "link": "Katalogga o'ting",
+    "box1": {
+      "label": "periodontika"
+        },
+    "box2": {
+      "label": "jarrohlik"
+        },
+    "box3": {
+      "label": "implantologiya"
+        },
+    "box4": {
+      "label": "estetik\nstomatologiya"
+        },
+    "box5": {
+      "label": "Terapiya"
+        }
+  },
+  "doctors": {
+    "title": "Shifokorlar",
+    "link": "Barchasini ko'rish",
+    "alertTitle": "So'rovingiz muvaffaqqiyatli yuborildi",
+    "popup": {
+      "title": "Yozilish",
+      "label1": "F.I.O",
+      "label2": "Telefon",
+      "btn": "Yozilish"
+    }
+  },
+  "reviews": {
+    "title": "Sharhlar",
+    "link": "Barchasini ko'rish"
+  },
+  "contact": {
+    "title": "biz bilan bog'laning",
+    "btn": "Yuborish",
+    "label1": "F.I.SH",
+    "label2": "Telefon",
+    "marshrut": "Marshrut o'rnatish",
+    "street": "CFS TABASSUM, Nasaf Ko'chasi, Тошкент, Uzbekistan",
+    "alertTitle": "So'rovingiz muvaffaqqiyatli yuborildi"
+  },
+  "catalog": {
+    "title": "Xizmatlar",
+    "empty": "Hech nima topilmadi..!",
+    "download": "Yuklab olish PDF",
+    "updated": "yangilangan"
+  },
+  "footer": {
+    "titleContacts": "Kontaktlar",
+    "titleWork": "Ish vaqti"
+  }
+}

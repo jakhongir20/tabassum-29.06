@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "nav-link1": "О Нас",
+    "nav-link2": "УСЛУГИ",
+    "nav-link3": "ВРАЧИ",
+    "nav-link4": "ОТЗЫВЫ",
+    "nav-link5": "Контакты"
+  },
+  "header": {
+    "title": "TABASSUM",
+    "text": "Здоровые зубы и красивая улыбка меняют всё!\nНаша клиника ждет Вас!"
+  },
+  "about": {
+    "title": "О НАС",
+    "text": "ru Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus vulputate\n                  fames\n                  eget integer lorem risus vitae. Laoreet diam egestas donec massa urna enim maecenas senectus. Lacus\n                  scelerisque ac sit tellus egestas. Condimentum adipiscing et, et molestie nunc vulputate lacinia purus\n                  leo"
+  },
+  "services": {
+    "title": "УСЛУГИ",
+    "link": "Перейти в каталог",
+    "box1": {
+      "label": "пародонтология"
+        },
+    "box2": {
+      "label": "хирургия"
+        },
+    "box3": {
+      "label": "имплантология"
+        },
+    "box4": {
+      "label": "эстетическая\nстамотология"
+        },
+    "box5": {
+      "label": "Терапия"
+        }
+  },
+  "doctors": {
+    "title": "ВРАЧИ",
+    "link": "СМОТРЕТЬ ВСЕХ",
+    "alertTitle": "Ваш запрос был успешно отправлен.",
+    "popup": {
+      "title": "Запис к",
+      "label1": "Ф.И.Ш",
+      "label2": "Телефон",
+      "btn": "Записаться"
+    }
+  },
+  "reviews": {
+    "title": "ОТЗЫВЫ",
+    "link": "СМОТРЕТЬ ВСЕХ"
+  },
+  "contact": {
+    "title": "свяжитесь с нами",
+    "btn": "ОТПРАВИТЬ",
+    "label1": "Ф.И.Ш",
+    "label2": "Телефон",
+    "marshrut": "Построит маршрут",
+    "street": "CFS TABASSUM, улица Насаф, Ташкент, Узбекистан",
+    "alertTitle": "Ваш запрос был успешно отправлен."
+  },
+  "catalog": {
+    "title": "Каталог услуг",
+    "empty": "Ничего нет..!",
+    "download": "скачать в PDF",
+    "updated": "обновлено"
+  },
+  "footer": {
+    "titleContacts": "Контакты:",
+    "titleWork": "Рабочие часы:"
+  }
+}

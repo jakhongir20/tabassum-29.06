@@ -1,0 +1,46 @@
+{
+  "catalog_items": [
+    {
+      "id": 1,
+      "text": "Терапия",
+      "description": "lorem ipsum",
+      "weight": 1
+    },
+    {
+      "id": 2,
+      "text": "хирургия",
+      "description": "lorem ipsum",
+      "weight": 2
+    },
+    {
+      "id": 3,
+      "text": "имплантология",
+      "description": "lorem ipsum",
+      "weight": 3
+    },
+    {
+      "id": 4,
+      "text": "эстетическая стамотология",
+      "description": "lorem ipsum",
+      "weight": 4
+    },
+    {
+      "id": 5,
+      "text": "пародонтология",
+      "description": "lorem ipsum",
+      "weight": 5
+    },
+    {
+      "id": 6,
+      "text": "имплантология",
+      "description": "lorem ipsum",
+      "weight": 6
+    },
+    {
+      "id": 7,
+      "text": "хирургия",
+      "description": "lorem ipsum",
+      "weight": 7
+    }
+  ]
+}

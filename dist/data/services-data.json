@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "imgSrc": "t1",
+      "label": "Терапия",
+      "texts": "Lorem ipsum dolor llamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim...",
+      "link": "подробнее"
+    },
+    {
+      "id": 2,
+      "imgSrc": "t2",
+      "label": "хирургия",
+      "texts": "Lorem ipsum dolor  laoreet consectetur enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim...",
+      "link": "подробнее"
+    },
+    {
+      "id": 3,
+      "imgSrc": "t3",
+      "label": "имплантология",
+      "texts": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim...",
+      "link": "подробнее"
+    },
+    {
+      "id": 4,
+      "imgSrc": "t4",
+      "label": "эстетическая\nстамотология",
+      "texts": "Lorem ipsum dolor sit amet,  felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim...",
+      "link": "подробнее"
+    },
+    {
+      "id": 5,
+      "imgSrc": "t3",
+      "label": "пародонтология",
+      "texts": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim...",
+      "link": "подробнее"
+    }  ,
+    {
+      "id": 6,
+      "imgSrc": "t2",
+      "label": "имплантология",
+      "texts": "Lorem ipsum dolor sit amet, amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In turpis ut non mauris. Massa egestas imperdiet amet, felis sit risus amet. Urna, a at hendrerit pretium ullamcorper quis id diam sem. Viverra ipsum varius laoreet consectetur enim...",
+      "link": "подробнее"
+    }
+  ]
+}
